@@ -58,19 +58,20 @@ header {
   background: white;
   padding: 40px;
   border-radius: 4px;
-  width: 650px;
+  max-width: 650px;
   margin: 0 auto;
-  position: absolute;
+  /*position: absolute;
   top: 32%;
   left: 50%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%); */
   box-shadow: 0 0 20px rgb(0 0 0 / 7%), 0 0 15px rgb(0 0 0 / 5%);
-  color: #2c3e50;  
+  color: #2c3e50;
 }
 
 .filler-div {
-  height: 80vh;
-}
+  height: 10vh;
+} 
+
 /* LOGOS */
 .strikeout {
   content: "";
@@ -91,7 +92,7 @@ header {
 img {
   max-width: 100%;
 
-}
+} */
 
 /* BUTTONS */
 .center {
@@ -150,4 +151,33 @@ width: 100%;
 
 a {
   margin-right: 50px;
+}
+
+
+/* Media query: tablet or smaller */
+@media screen and (max-width: 1000px) {
+  header {
+    background-position: center center;
+    background-size: cover;
+    max-height: 500px;
+  }
+
+  footer {
+    padding: 24px;
+  }
+
+  main {
+    margin-bottom: 50px;
+  }
+
+  .card {
+    padding: 24px;
+    /* margin: 10px; */
+  }
+
+ .center {
+   text-align: center;
+   align-items: center;
+ }
+
 }
