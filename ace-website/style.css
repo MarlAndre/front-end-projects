@@ -68,7 +68,9 @@ header {
   color: #2c3e50;  
 }
 
-
+.filler-div {
+  height: 80vh;
+}
 /* LOGOS */
 .strikeout {
   content: "";
@@ -132,7 +134,11 @@ footer {
 display: flex;
 justify-content: end;
 background: rgb(200, 200, 200);
-padding: 40px;
+padding: 32px;
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
 }
 
 .btn {
@@ -140,4 +146,8 @@ padding: 40px;
   color: #424243;
   font-weight: 600;
   cursor: pointer;
+}
+
+a {
+  margin-right: 50px;
 }
